@@ -12,7 +12,7 @@ int main ()
     char opcionManual;
     char estaLloviendo;
 
-
+    printf ("Bienvenidos al sistema. ");
     //Averiguamos si el sensor esta en automatico
     scanf(" %c",&opcionDeSensor);
     if (opcionDeSensor == 'S'  || opcionDeSensor == 's' )
